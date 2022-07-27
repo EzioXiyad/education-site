@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* body{
+    background-color: #FFFFFF;
+} */
 .logo-font{
     font-family: 'Poppins';
 }
 #logo-nav{
     color: darksalmon;
+}
+
+.btn-text{
+    color: #289BDE;
+}
+.carousel-caption{
+    margin: 250px auto;
 }
