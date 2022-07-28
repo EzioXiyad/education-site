@@ -3,6 +3,8 @@
 body{
     font-family: 'Poppins';
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 /* .logo-font{
     font-family: 'Poppins';
@@ -15,8 +17,12 @@ body{
     color: #289BDE;
 }
 .carousel-caption{
-    margin: 12rem auto;
+   bottom: 180px;
+   padding: 0 100px; 
 }
 .margin{
     margin-top: 100px;
+}
+.img-brightness{
+    filter: brightness(50%);
 }
