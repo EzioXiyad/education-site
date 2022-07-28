@@ -9,9 +9,7 @@ body{
 .container-fluid{
     padding: 0 5%;
 }
-/* .logo-font{
-    font-family: 'Poppins';
-} */
+
 #logo-nav{
     color: darksalmon;
     font-size: 30px;
@@ -21,8 +19,7 @@ body{
     color: #289BDE;
 }
 .carousel-caption{
-   bottom: 27%;
-   padding: 0 10%; 
+   bottom: 27%; 
 }
 .carousel-caption h1{
     font-size: 70px;
@@ -33,15 +30,30 @@ body{
 .img-brightness{
     filter: brightness(50%);
 }
-
+.icon{
+    border: 1px solid white;
+    border-radius:3px;
+}
+.icon i{
+    font-size: 24px;
+    color: #FFFFFF;
+}
 @media only screen and (max-width: 600px) {
 .brand-logo{
     display: none;
 }
-
+}
 
 @media only screen and (max-width: 992px) {
     .brand-logo{
         display: none;
     }
+    .call-to-action{
+        text-align: center;
     }
+    .register-button{
+        display: block;
+        margin: 0 auto;
+    }
+    }
+
