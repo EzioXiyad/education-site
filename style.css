@@ -6,9 +6,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.container-fluid{
-    padding: 0 5%;
-}
 
 #logo-nav{
     color: darksalmon;
@@ -38,11 +35,6 @@ body{
     font-size: 24px;
     color: #FFFFFF;
 }
-@media only screen and (max-width: 600px) {
-.brand-logo{
-    display: none;
-}
-}
 
 @media only screen and (max-width: 992px) {
     .brand-logo{
@@ -55,5 +47,29 @@ body{
         display: block;
         margin: 0 auto;
     }
+    .carousel-caption{
+        bottom: 10%; 
+     }
+     .carousel-caption h1{
+        font-size: 46px;
     }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+.brand-logo{
+    display: none;
+    
+}
+.carousel-caption{
+    bottom: 5%; 
+ }
+ .carousel-caption h1{
+    font-size: 26px;
+}
+}
+
+
 
