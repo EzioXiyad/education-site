@@ -6,19 +6,29 @@ body{
     margin: 0;
     padding: 0;
 }
+.container-fluid{
+    padding: 0 4%;
+}
 /* .logo-font{
     font-family: 'Poppins';
 } */
 #logo-nav{
     color: darksalmon;
+    font-size: 30px;
 }
 
 .btn-text{
     color: #289BDE;
 }
 .carousel-caption{
-   bottom: 180px;
-   padding: 0 100px; 
+   bottom: 27%;
+   padding: 0 10%; 
+}
+.carousel-caption h1{
+    font-size: 70px;
+}
+.carousel-caption p{
+    font-size: 20px;
 }
 .margin{
     margin-top: 100px;
