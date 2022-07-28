@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 .container-fluid{
-    padding: 0 4%;
+    padding: 0 5%;
 }
 /* .logo-font{
     font-family: 'Poppins';
@@ -30,9 +30,6 @@ body{
 .carousel-caption p{
     font-size: 20px;
 }
-.margin{
-    margin-top: 100px;
-}
 .img-brightness{
     filter: brightness(50%);
 }
@@ -41,4 +38,10 @@ body{
 .brand-logo{
     display: none;
 }
-}
+
+
+@media only screen and (max-width: 992px) {
+    .brand-logo{
+        display: none;
+    }
+    }
